@@ -173,6 +173,7 @@ export default function AssistantPage() {
             <VoiceRecorder
               onRecordingComplete={handleVoiceRecording}
               isDisabled={isLoading}
+              language={language}
             />
             <p className="text-xs text-slate-500">
               Press 🎤 to speak, or type below.
